@@ -23,9 +23,9 @@ button {
   cursor: pointer;
 }
 
-.photo {
-  display: block;
-  width: 300px;
-  height: auto;
-  margin-bottom: 25px;
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  list-style: none;
 }
