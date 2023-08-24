@@ -24,10 +24,9 @@ decrementBtn.addEventListener('click', handleDecrementBtnClick);
 incrementBtn.addEventListener('click', handleIncrementBtnClick);
 
 function handleDecrementBtnClick() {
-    if (counterValue > 0) {
     counterValue -= 1;
     counterEl.textContent = counterValue;
-}}
+}
 
 function handleIncrementBtnClick() {
     counterValue += 1;

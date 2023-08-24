@@ -10,8 +10,11 @@ inputEl.addEventListener('input', handleInput);
 
 function handleInput(event) {
    // console.log(event.currentTarget.value)
-    if (event.currentTarget.value) {
-        outputEl.textContent = event.currentTarget.value;
+    
+    const value = event.currentTarget.value.trim();
+    
+    if (value) {
+        outputEl.textContent = value;
     } else {
         outputEl.textContent = "Anonymous";
 }}
