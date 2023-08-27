@@ -8,7 +8,7 @@
 const inputEl = document.querySelector('#font-size-control');
 const textEl = document.querySelector('#text');
 
-inputEl.addEventListener('click', handleInputClick);
+inputEl.addEventListener('input', handleInputClick);
 
 function handleInputClick (event){
     // console.log(event.currentTarget.value);
